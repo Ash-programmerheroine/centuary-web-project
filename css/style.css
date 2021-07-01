@@ -1,0 +1,162 @@
+/* ====author====
+Name:
+Email:
+Phone: 
+Website:
+ */
+
+/* ======color used in template=====
+    1. deep orange color - #ef7e19
+    2. light orange color -#f78927
+    3. Text Black color - #232323
+    4. gray color -#8d8d8d
+
+ */
+
+
+/* google fonts: Montserrat + exo 2 + meie script*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Meie+Script&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* global css */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #232323;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Exo 2', sans-serif;
+}
+.client-names{
+    font-family: 'Meie Script', cursive;
+}
+a{
+    text-decoration: none;
+}
+/* ================
+header section
+=============== */
+header{
+    background: url(../images/CENTAURY_bg.png) no-repeat center top;
+    background-size: cover;
+}
+.logo{
+    padding: 36px 0 0px;
+}
+.navbar-light .navbar-brand{
+    padding: 0;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl 
+{
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background:#272727;
+    border-bottom: 2px solid #ef7e19;
+    padding: 60px 5px 9px;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 60px 15px 5px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color:#ef7e19;
+}
+.banner-content{
+    padding: 105px 0 75px;
+}
+.banner-content h1{
+    color:#fff;
+    font-weight: 700;
+    margin: 0;
+}
+.banner-content p{
+    color:#8d8d8d;
+    margin: 0;
+    padding: 25px 0;
+    font-weight: 500;
+}
+.banner-content span{
+    color:#ef7e19;
+}
+.banner-content .default-btn{
+    background: #ef7e19;
+    color: #fff;
+    padding: 10px 36px;
+    text-transform: uppercase;
+}
+.fa-angle-double-right:before {
+    padding: 0px 0px 0px 10px;
+}
+.default-btn:hover{
+    background:#f78927;
+}
+/* =======
+Text section css
+====== */
+.intro-section{
+    
+    padding: 112px 0;
+    background: url(../images/hotspot-bg.png) no-repeat;
+    background-position: right;
+    background-size: 72%;
+}
+.intro-section h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+.intro-section span{
+    color:#ef7e19;
+}
+.intro-section p{
+    font-weight: 500;
+    color:#8d8d8d;
+    margin: 0;
+    padding: 25px 0;
+    color: #000;
+}
+.intro-section .default-btn{
+    background: #ef7e19;
+    color: #fff;
+    padding: 10px 36px;
+    text-transform: uppercase;
+}
+.intro-section .default-btn:hover{
+    background:#f78927;
+}
+.float-parent{
+    position: relative;
+   
+}
+.float-parent h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    padding: 6px 5px;
+}
+.float-parent p{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    padding: 6px;
+    font-size: 12px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+}
+.float-content{
+    position: absolute;
+    top: 133px;
+    left: 143px;
+    border:5px solid #ef7e19;
+}
