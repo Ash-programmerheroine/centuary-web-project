@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6{
 a{
     text-decoration: none;
 }
-.mt-150{
+.mt-75{
     margin-top: 75px;
 }
 .mt-20{
@@ -40,6 +40,8 @@ a{
 .pl-75{
     padding-left: 75px;
 }
+.text-align{ text-align: center;}
+
 /* ================
 header section
 =============== */
@@ -177,7 +179,7 @@ Gallery section
     background-position: right;
     background-size: 6% 100%;
 }
-.text-align{ text-align: center;}
+
 .gallery-sec .default-btn-gallery{
 
     border:2px solid #ef7e19;
@@ -204,6 +206,46 @@ Gallery section
     background: #ef7e19;
     color: #fff;
     transition: .5s ease-in-out;
+}
+.item-box{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    transition: .5s ease-in-out;
+
+}   
+.img-hover{
+    position: absolute;
+    top:0;
+    left:-100%;
+    width: 100%;
+    padding: 0;
+    transition: .5s ease-in-out;
+
+}
+.item-box:hover .img-hover{
+   left: 0%;
+   transition: .5s ease-in-out;
+}
+.img-hover h1{
+    background: #f78927;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.img-hover p{
+    background: #ef7e19;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
 }
 /* ==========================
 Airdome structure section css
@@ -260,18 +302,239 @@ Airdome structure section css
 Our story section css
 ================== */
 .our-story-sec{
-    padding:50px 0;
+    padding: 75px 0;
     background: url(../images/Our-story-bg.png) no-repeat;
     background-position: right;
+    background-size: 6% 100%;
 }
-.img-hover{
-    background:royalblue;
-}
+
 .story-description{
     border:2px solid #ef7e19;
     border-top:none;
-    text-align: center;
+} 
+.story-description p{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 22px 10px;
+    margin: 0;
+    text-align: left;
 }
 .read-more{
     background: #ef7e19;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.read-more a{
+    background: #ef7e19;
+   
+    color: #fff !important;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.img-story{
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    transition: .5s ease-in-out;}
+.img-story-hover{
+    height: 100%;
+    position: absolute;
+    right:0;
+    bottom:-100%;
+    width: 100%;
+    background:rgba(197, 197, 197, 1) ;
+    transition: .5s ease-in-out;
+}
+.img-story:hover .img-story-hover{
+    background:rgba(197, 197, 197, .3) ;
+    bottom:0%;;
+    transition: .5s ease-in-out;
+}
+
+/* =======
+Client review section
+====== */
+.client-review{
+    padding: 75px 0 300px;
+    background: url(../images/client-review-bg.png) no-repeat;
+    background-position: left;
+    background-size: 5% 100%;
+}
+.client-review h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    font-size: 44px;
+}
+.client-review span{
+    color: #ef7e19;
+}
+.positioning{
+    position: relative;
+}
+.review-shape{
+    position: absolute;
+    top: 19px;
+    left: 529px;
+}
+.review-para{
+    position: absolute;
+    top: 235px;
+    left: 529px;
+    margin: 0;
+    padding: 6px 337px 0px 106px;
+    color: #fff;
+}
+.client-sign span{
+    color: #fff;
+    font-family: 'Meie Script', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.client-sign {
+    position: absolute;
+    bottom: -39px;
+    right: 378px;
+    color: #fff;
+}
+.client-1{
+    position: absolute;
+    top: 344px;
+    left: 338px;
+    border: 6px solid #ededed;
+    border-radius: 50%;
+
+}
+.client-2{
+    position: absolute;
+    top: 413px;
+    left: 475px;
+    border: 6px solid #ededed;
+    border-radius: 50%;
+    background:#fff;
+}
+.client-3{
+    position: absolute;
+    top: 54px;
+    left: 786px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    background: #fff;
+}
+.client-4{
+    position: absolute;
+    bottom: 161px;
+    right: 99px;
+    border: 6px solid #ededed;
+    border-radius: 50%;
+    background: #fff;
+}
+.client-5{
+    position: absolute;
+    bottom: 329px;
+    right: 11px;
+    border: 6px solid #ededed;
+    border-radius: 50%;
+}
+
+/* ======
+footer
+====== */
+footer{
+    padding: 100px 0 40px;
+    background: url(../images/footer-bg.png) no-repeat center top;
+    background-size: cover;
+}
+footer h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 700;
+    text-align:center;
+    margin-bottom: 55px;
+}
+footer span{
+    color:#ef7e19;
+}
+footer form input{
+    display: block;
+    color: #fff;
+    margin: 23px auto;
+    height: 55px;
+    width: 550px;
+    background: transparent;
+    padding: 20px 17px;
+    border: 1px solid #d9d9d9;
+}
+footer #submit{
+    background: #ef7e19;
+    color: #fff;
+    border:none;
+    text-transform: uppercase;
+}
+footer .fa{
+    color:#ef7e19;
+    font-size: 30px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+footer ul li {
+    color: #d9d9d9;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px;
+    font-weight: 200;
+}
+footer h4{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.social-media .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 12px;
+    border-radius: 50%;
+}
+
+
+footer  .fa-facebook{
+    background: #3b5998;
+    color:#fff; 
+}
+footer  .fa-twitter{
+    background: #55acee;
+    color:#fff; 
+}
+footer  .fa-google-plus{
+    background: #dc4e41;
+    color:#fff; 
+}
+footer  .fa-pinterest{
+    background: #cb2027;
+    color:#fff; 
+}
+.copyright-container{
+    background: #111;
+    border-top:1px solid #b5b5b5;
+}
+.copyright{
+    text-align: center;
+    color: #b5b5b5;
+    padding: 20px;
+    margin: 0;
+    font-size: 12px;
 }
