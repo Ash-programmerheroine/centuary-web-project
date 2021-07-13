@@ -14,12 +14,12 @@ Website:
  */
 
 
-/*===== 
+/*=============================================
 google fonts: Montserrat + exo 2 + meie script
-======*/
+===============================================*/
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Meie+Script&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*====== 
+/*=========
 global css 
 ==========*/
 body{
@@ -51,7 +51,7 @@ ul{
 .text-align{ text-align: center;}
 
 
-/* ================
+/* =============
 header section
 =============== */
 header{
@@ -118,9 +118,9 @@ header{
     background:#f78927;
 }
 
-/* =======
+/* =============
 Text section css
-====== */
+================= */
 .intro-section{ 
     padding: 112px 0;
     background: url(../images/hotspot-bg.png) no-repeat;
