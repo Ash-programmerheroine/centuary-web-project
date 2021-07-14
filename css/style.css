@@ -186,9 +186,7 @@ Gallery section
 ================*/
 .gallery-sec{
     padding: 100px 0;
-    background: url(../images/tchnology-bg.png) no-repeat;
-    background-position: right;
-    background-size: 6% 100%;
+   
 }
 .btn-gallery-group{
     text-align: center;
@@ -534,4 +532,45 @@ footer h3{
     font-size: 14px;
     padding: 20px 0;
     margin: 0;
+}
+
+/* =======================
+Media Query css for mobile
+========================== */
+
+@media (min-width:320px) and (max-width:576px){
+    header .logo { padding: 10px;} 
+    header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {padding: 10px;}
+    header .navbar-light .navbar-nav .nav-link { padding: 10px;text-align: center;}
+    header .navbar-light .navbar-toggler {background-color: #fff;}
+    header{  background-size: 117% 100%;}
+    .banner-content {padding: 50px 0 50px;}
+    .banner-content h1{text-align: center;}
+    .banner-content p{text-align: center; padding: 25px}
+    .intro-section{background-position: bottom; background-size: contain; padding: 54px 0 250px;}
+    .intro-section .float-parent h4{font-size: 10px;}
+    .intro-section .float-parent p { font-size: 6px; } 
+    .intro-section .float-content { width: 44%;height: auto;} 
+    .gallery-sec { padding: 55px 0;} 
+    .gallery-sec .item-box img{display:block;margin: 0 auto;padding: 20px 0;} 
+    .gallery-sec .btn-gallery-1, .gallery-sec .btn-gallery-1:hover{    padding: 8px 2px;}
+    
+    .gallery-sec .btn-dome-2, .gallery-sec .btn-dome-2:hover{    padding: 10px 32px}
+    .structure {padding: 0 0 35px;}
+    .structure img{    padding: 0px 0px 65px;}
+    .story {padding: 0 0 100px; }
+    .story .story-item img {  width:100% ;   display: block; margin: 0 auto; margin-top: 40px; }
+    .testimonial h2 {text-align: center;}
+    .review-heading { top: -5%; left: 25.5%; transform:rotate(0deg);}
+    .review-heading h1 {  font-size: 24px;}
+    .review-content p {padding: 5% 18%;font-size: 10px;margin:0;}
+    .social-media{    margin-bottom: 30px;}
+    .review-content h5{
+        margin-top: -13px;
+        font-size: 22px;
+        padding-bottom: 80px;}
+    .review-content .clients-name{font-size: 14px;}  
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        left: 10%;
+        bottom:18% ;}
 }
