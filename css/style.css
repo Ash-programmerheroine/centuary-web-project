@@ -575,8 +575,8 @@ Media Query css for mobile
      .gallery-btn-1 {display: inline-block;margin: 10px auto;}
      .gallery-btn-2 {display: inline-block;margin: 0 auto;}
      .gallery-item .gallery-title h3 {font-size: 20px;}
-    .gallery-item .ghover-head h3 {padding: 10px;font-size:.975rem}
-    .gallery-item .ghover-body p {padding: 8px;font-size:.75rem; text-align: center;}
+    .gallery-item .ghover-head h3{padding: 10px;font-size:.975rem}
+    .gallery-item .ghover-body p{padding: 8px;font-size:.75rem; text-align: center;}
 
     .structure {padding: 0 0 23px;}
     .structure img{    padding: 0px 0px 50px;}
@@ -599,6 +599,5 @@ Media Query css for mobile
     .contact-info { margin-bottom: 16px;}
     footer h2 {margin: 0px 0 40px;}
     footer .form-control{ font-size: .875rem;}
-    .copyright p{font-size: 10px;}
-
+    .copyright p{font-size: 12px;}
 }
